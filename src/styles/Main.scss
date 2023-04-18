@@ -1,0 +1,115 @@
+// Css Reset
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+    font-family: "Concert One";
+    src: local("ConcertOne"),
+     url("../fonts/ConcertOne-Regular.ttf") format("truetype");
+}
+
+body {
+	line-height: 1;
+    background-color: antiquewhite;
+    height: 100vh;
+    font-family: "Concert One";
+}
+
+.main-container {
+    display: grid;
+    grid-template-rows: 150px 1fr 50px;
+    height: 100vh;
+}
+
+
+//HEADER
+header  {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 2.25rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.nav-bar ul   {
+    display: flex;
+    gap: 2rem;
+    font-size: 1.75rem;
+}
+
+.nav-bar ul li   {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar ul li:hover   {
+    transform: scale(1.1);
+}
+
+.nav-bar a   {
+    color: black;
+    text-decoration: none;
+}
+
+#cart-button    {
+    height: 28px;
+    width: auto;
+}
+
+#cart-button:hover    {
+    cursor: pointer;
+}
+
+//FOOTer
+footer  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 1.25rem;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+    text-shadow: 1px 1px rgb(255, 255, 255); 
+}
