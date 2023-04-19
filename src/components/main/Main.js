@@ -4,12 +4,12 @@ import HomePage from "./homepage/Homepage";
 import ProductPage from "./productpage/ProductPage";
 
 
-const Main = () => {
+const Main = (props) => {
     return (
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<HomePage />} />
-                <Route path="/products" element={<ProductPage />} />
+                <Route path="/products" element={<ProductPage addToCart={props.addToCart} />} />
             </Routes>
         </BrowserRouter>
     )

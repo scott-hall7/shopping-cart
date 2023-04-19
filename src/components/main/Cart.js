@@ -1,9 +1,11 @@
-import React, { } from "react";
+import React from "react";
+import CartProduct from "./CartProduct"
 
-const Cart = () => {
+const Cart = (props) => {
     return (
         <div className="cart-sidebar active">
-            Hello
+            <h3 id ="cart-header">Your Cart</h3>
+            {}
         </div>
     )
 }

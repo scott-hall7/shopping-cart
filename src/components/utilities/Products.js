@@ -8,7 +8,6 @@ import Fire from "./fire.png"
 import Car from "./car.png"
 import Success from "./success.png"
 
-
 const products = [
     {name: "Fresh Cut Grass", img: `${Grass}`, cost: "$10"},
     {name: "Rain on Pavement", img: `${Rain}`, cost: "$15"},

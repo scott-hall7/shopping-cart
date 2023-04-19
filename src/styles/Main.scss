@@ -175,8 +175,6 @@ footer p a:hover {
 
 
 
-
-
 .cart-sidebar   {
     display: none;
     position: absolute;
@@ -208,11 +206,6 @@ footer p a:hover {
     transform: rotate(-5deg) skew(-5deg);
 }
 
-
-
-
-
-
 .product-page   {
     display: grid;
     grid-template-columns: 200px 200px 200px;
@@ -224,7 +217,7 @@ footer p a:hover {
 .product-card   {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    gap: 5px;
     align-items: center;
     background-color: rgb(241, 241, 241);
     border-radius: 10px;
