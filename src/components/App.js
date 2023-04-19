@@ -10,7 +10,9 @@ const App = () => {
 
 
     const addToCart = (e) => {
-        console.log(e.target)
+        const name = e.target.name;
+        const id = e.target.value;
+        console.log(name,id)
         //if(cart.find(item => item.name === name)) console.log(true)
         //else setCart((prevState) => ([...prevState, {name: name, cost: cost, quantity: 1}]))
         //console.log(cart)
