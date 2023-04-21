@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import ShoppingCart from "../../assets/shopping-cart.png"
 
 const NavBar = (props) => {
-    const [ totalQuantity, setTotalQuantity] = useState(0);
+    const [ totalQuantity, setTotalQuantity] = useState('');
 
     useEffect(() => {
         let sum = 0;
@@ -11,7 +11,7 @@ const NavBar = (props) => {
             for(let i = 0; i < props.cart.length; i++)    {
                 sum += props.cart[i].quantity;
             }
-            setTotalQuantity(sum);
+            sum === 0 ? setTotalQuantity(''):setTotalQuantity(sum)
         }
         total();
       });
@@ -26,11 +26,11 @@ const NavBar = (props) => {
                 <li>
                     <Link to="/products">Products</Link>
                 </li>
-                <li onClick={props.showCart}>
-                    <p id="cart-total">{totalQuantity}</p>
-                    <img src={ShoppingCart} alt="cart button" id="cart-button"/>
-                </li>
             </ul>
+            <div className="shopping-cart" onClick={props.showCart}>
+                <p id="cart-quantity">{totalQuantity}</p>
+                <button type="button" id="display-cart"><img src={ShoppingCart} alt="cart button" id="cart-button"/></button>
+            </div>
         </nav>
     )
 }
