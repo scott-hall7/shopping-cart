@@ -1,11 +1,12 @@
 import React, {  } from "react";
 import NavBar from "./NavBar"
 
-const Header = () => {
+const Header = (props) => {
+
     return (
-        <header>
+        <header className={props.display}>
             <p>Smells for Sales</p>
-            <NavBar />
+            <NavBar cart={props.cart} showCart={props.showCart} />
         </header>
     )
 }
