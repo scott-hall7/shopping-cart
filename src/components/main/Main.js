@@ -7,8 +7,8 @@ import ProductPage from "./productpage/ProductPage";
 const Main = (props) => {
     return (
         <Routes>
-            <Route path="/" element={<HomePage display={props.display}/>} />
-            <Route path="/products" element={<ProductPage addToCart={props.addToCart} display={props.display}/>} />
+            <Route path="/shopping-cart" element={<HomePage display={props.display}/>} />
+            <Route path="/shopping-cart/products" element={<ProductPage addToCart={props.addToCart} display={props.display}/>} />
         </Routes>   
     )
 }
