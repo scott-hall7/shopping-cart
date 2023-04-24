@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.286a2c5c.css",
-    "main.js": "/react-gh-pages/static/js/main.56a3382b.js",
-    "static/media/nose.jpg": "/react-gh-pages/static/media/nose.e9e7ef4ba0295c6d1b5d.jpg",
-    "static/media/ConcertOne-Regular.ttf": "/react-gh-pages/static/media/ConcertOne-Regular.646d19d3a58116d78c9c.ttf",
-    "static/media/bread.png": "/react-gh-pages/static/media/bread.5bc0762742edbed0d23d.png",
-    "static/media/books.png": "/react-gh-pages/static/media/books.947242ea63ec2cda6300.png",
-    "static/media/coffee.png": "/react-gh-pages/static/media/coffee.47c549361754b90444e7.png",
-    "static/media/gas.png": "/react-gh-pages/static/media/gas.3bd18a66d205f29eef01.png",
-    "static/media/car.png": "/react-gh-pages/static/media/car.f758f3ea009dfb4e2756.png",
-    "static/media/fire.png": "/react-gh-pages/static/media/fire.d56c399ddc67cbcc462b.png",
-    "static/media/rain.png": "/react-gh-pages/static/media/rain.142c2ac3ba62debe0977.png",
-    "static/media/success.png": "/react-gh-pages/static/media/success.08e791804e0e98a3ab85.png",
-    "static/media/grass.png": "/react-gh-pages/static/media/grass.204886bb28d5d542cd83.png",
-    "static/media/footer.png": "/react-gh-pages/static/media/footer.d2971a6a712e48b46753.png",
-    "index.html": "/react-gh-pages/index.html",
-    "main.286a2c5c.css.map": "/react-gh-pages/static/css/main.286a2c5c.css.map",
-    "main.56a3382b.js.map": "/react-gh-pages/static/js/main.56a3382b.js.map"
+    "main.css": "/shopping-cart/static/css/main.6902ca2b.css",
+    "main.js": "/shopping-cart/static/js/main.a0f8463d.js",
+    "static/media/nose.jpg": "/shopping-cart/static/media/nose.e9e7ef4ba0295c6d1b5d.jpg",
+    "static/media/ConcertOne-Regular.ttf": "/shopping-cart/static/media/ConcertOne-Regular.646d19d3a58116d78c9c.ttf",
+    "static/media/bread.png": "/shopping-cart/static/media/bread.5bc0762742edbed0d23d.png",
+    "static/media/books.png": "/shopping-cart/static/media/books.947242ea63ec2cda6300.png",
+    "static/media/coffee.png": "/shopping-cart/static/media/coffee.47c549361754b90444e7.png",
+    "static/media/gas.png": "/shopping-cart/static/media/gas.3bd18a66d205f29eef01.png",
+    "static/media/car.png": "/shopping-cart/static/media/car.f758f3ea009dfb4e2756.png",
+    "static/media/fire.png": "/shopping-cart/static/media/fire.d56c399ddc67cbcc462b.png",
+    "static/media/rain.png": "/shopping-cart/static/media/rain.142c2ac3ba62debe0977.png",
+    "static/media/success.png": "/shopping-cart/static/media/success.08e791804e0e98a3ab85.png",
+    "static/media/grass.png": "/shopping-cart/static/media/grass.204886bb28d5d542cd83.png",
+    "static/media/footer.png": "/shopping-cart/static/media/footer.d2971a6a712e48b46753.png",
+    "index.html": "/shopping-cart/index.html",
+    "main.6902ca2b.css.map": "/shopping-cart/static/css/main.6902ca2b.css.map",
+    "main.a0f8463d.js.map": "/shopping-cart/static/js/main.a0f8463d.js.map"
   },
   "entrypoints": [
-    "static/css/main.286a2c5c.css",
-    "static/js/main.56a3382b.js"
+    "static/css/main.6902ca2b.css",
+    "static/js/main.a0f8463d.js"
   ]
 }
