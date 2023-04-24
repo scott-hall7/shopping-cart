@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import Header from "./header/Header";
 import Main from "./main/Main";
 import Cart from "./main/Cart"
@@ -40,11 +40,11 @@ const App = () => {
 
     return (
         <div className="main-container">
-            <BrowserRouter>
+            <HashRouter>
                 <Header cart={cart} showCart={showCart} display={displayCart ? 'inactive': ''} />
                 <Main addToCart={addToCart} display={displayCart ? 'inactive': ''} />
                 <Footer />
-            </BrowserRouter>
+            </HashRouter>
             <Cart cart={cart} showCart={showCart} addToCart={addToCart} updateCart={updateCart} display={displayCart ? 'active': ''} />
         </div>
     )
