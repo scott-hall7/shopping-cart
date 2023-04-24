@@ -1,0 +1,98 @@
+.cart-sidebar   {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    min-width: 300px;
+    z-index: 1;
+    right: 0;
+    background-color: white;
+    border-bottom-left-radius: 80px;
+    box-shadow: 0px 0px 100px 100px rgba(202, 202, 202, 0.671);
+    padding: 20px;
+}
+
+.cart-header    {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    font-size: 1.75rem;
+}
+
+.cart-header button   {
+    border: none;
+    padding: 5px;
+    font-size: 2.5rem;
+    background-color: white;
+    color: black;
+    font-family: "Concert One";
+}
+
+.cart-header button:hover   {
+    transform: scale(1.05);
+}
+
+.cart-products   {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    gap: 5px;
+}
+
+.cart-products img  {
+    width: 10%;
+}
+
+.cart-product   {
+    display: flex;
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 1px rgba(202, 202, 202, 0.671);
+    justify-content: space-between;
+}
+
+.cart-product p  {
+    display: flex;
+    align-items: center;
+}
+
+.cart-footer    {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    gap: 10px;
+    margin-top: 10px;
+    font-size: 1.75rem;
+}
+
+#checkout-button {
+    font-size: 1.5rem;
+    width: 75%;
+    padding: 10px;
+    border: none;
+    border-radius: 1rem;
+    background-color: rgb(124, 187, 109);
+    color: white;
+    font-family: "Concert One";
+}
+
+#checkout-button:hover    {
+    background-color: rgb(111, 177, 95);
+}
+
+.cart-product-totals    {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.cart-product-totals-quantity    {
+    display: flex;
+    gap: 10px;
+}

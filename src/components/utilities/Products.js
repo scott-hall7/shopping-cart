@@ -1,12 +1,12 @@
-import Grass from "./grass.png"
-import Rain from "./rain.png"
-import Bread from "./bread.png"
-import Coffee from "./coffee.png"
-import Gas from "./gas.png"
-import Books from "./books.png"
-import Fire from "./fire.png"
-import Car from "./car.png"
-import Success from "./success.png"
+import Grass from "../../assets/grass.png"
+import Rain from "../../assets/rain.png"
+import Bread from "../../assets/bread.png"
+import Coffee from "../../assets/coffee.png"
+import Gas from "../../assets/gas.png"
+import Books from "../../assets/books.png"
+import Fire from "../../assets/fire.png"
+import Car from "../../assets/car.png"
+import Success from "../../assets/success.png"
 
 const products = [
     {name: "Fresh Cut Grass", img: `${Grass}`, cost: 10},

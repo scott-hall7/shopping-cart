@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import Header from "./header/Header";
 import Main from "./main/Main";
 import Cart from "./main/Cart"

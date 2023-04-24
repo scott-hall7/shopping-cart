@@ -1,4 +1,4 @@
-import React, {  } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import Nose from "../../../assets/nose.jpg"
 import FooterImage from "../../../assets/footer.png"
