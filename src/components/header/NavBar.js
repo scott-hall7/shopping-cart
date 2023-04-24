@@ -21,10 +21,10 @@ const NavBar = (props) => {
         <nav className="nav-bar">
             <ul>
                 <li>
-                    <Link to="/shopping-cart">Home</Link>
+                    <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <Link to="/shopping-cart/products">Products</Link>
+                    <Link to="/products">Products</Link>
                 </li>
             </ul>
             <div className="shopping-cart" onClick={props.showCart}>

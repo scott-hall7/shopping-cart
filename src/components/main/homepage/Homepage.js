@@ -13,7 +13,7 @@ const HomePage = (props) => {
                 <p>The best smells, delivered straight to your... nose?</p>
                 <Link to="/products"><button type="submit" id="shop-now-button">Smell Now</button></Link>
             </div>
-            <img src={FooterImage} alt="wave" id="footer-image" />
+            <img src={FooterImage} alt="wave" id="footer-image"/>
         </div>
     )
 }
