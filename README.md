@@ -14,5 +14,4 @@ Smells for Sales is a shop used to buy your favorite smells. The goal of this pr
  
 
 ## Project Display
-
-![Alt text](https://github.com/scott-hall7/shopping-cart/src/assets/preview.png "App Preview")
+![Alt text](https://github.com/scott-hall7/shopping-cart/main/src/assets/preview.png "App Preview")
